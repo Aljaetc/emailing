@@ -1,0 +1,16 @@
+{
+  "name": "workproccessing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "min": "node transform-html.js",
+    "link": "node past-link.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0"
+  }
+}
